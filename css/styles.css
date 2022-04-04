@@ -1,0 +1,127 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../css/assets/images/ejercicio.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img {
+    width: 135px;
+    position: absolute;
+    padding: 0;
+  }
+
+  span{
+      color: red;
+  }
+.container {
+  width: 90%;
+  height: 480px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  display: flex;
+}
+
+.nav {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+}
+
+
+.boxtext {
+  width: auto;
+  position: absolute;
+  margin-top: 15px;
+  left: 1315px;
+  color: white;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+.text {
+  color: #33a3fd;
+  font-size: 16px;
+  padding-bottom: 0;
+  padding-top: 25px;
+}
+
+.box {
+  width: 60%;
+  margin-top: 60px;
+  padding: 10px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 1px black;
+  font-family: "Roboto", sans-serif;
+
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.case {
+  background-color: white;
+  width: 635px;
+  height: 585px;
+  padding: 5px;
+  margin-top: 80px;
+  margin-left: 300px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 1px #00000080;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 25px;
+  color: #3d3c3c;
+  
+}
+.block {
+  width: 415px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  margin-top: 1px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.checkbox {
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+}
+
+.button {
+  background-color: lightcoral;
+  border: 0;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-weight: 700;
+  font-stretch: extra-condensed;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-bottom: 50px;
+  margin-top: 15px;
+  border-radius: 3px;
+  padding: 10px 70px 10px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+
+}
+.button:hover{
+    background-color: rgb(231, 85, 85);
+
+}
